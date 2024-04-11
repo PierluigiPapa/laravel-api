@@ -1,9 +1,7 @@
-<h1 class="text-center">Ciao PierAdmin:</h1>
+<h1>Ciao PierAdmin:</h1>
 
-<p>
-    Hai ricevuto un nuovo messaggio! Ecco i dettagli: <br>
-    Nome: {{$lead->name}}<br>
-    Email: {{$lead->email}}<br>
-    Message:<br>
-    {{$lead->message}}
-</p>
+<strong>Hai ricevuto un nuovo messaggio! Ecco i dettagli:</strong> <br>
+<strong>Nome:</strong> {{$lead->name}}<br>
+<strong>Email:</strong> {{$lead->email}}<br>
+<strong>Message:</strong><br>
+<p>{{$lead->message}}</p>
